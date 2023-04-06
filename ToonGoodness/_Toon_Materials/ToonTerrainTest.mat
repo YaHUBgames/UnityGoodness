@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4521472575494688630
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ToonTerrainTest
+  m_Shader: {fileID: -6465566751694194690, guid: 4e28e88f2739a7847988ec32d6bc6d62,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditionalGroundTexture:
+        m_Texture: {fileID: 2800000, guid: bce8a1fb11a01844993d692adead9856, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_GroundTexture0:
+        m_Texture: {fileID: 2800000, guid: 77d6497bb4ea400428389d462e0c55b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_GroundTexture1:
+        m_Texture: {fileID: 2800000, guid: 910de3099ab29744c98a1b60a75203a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_GroundTexture2:
+        m_Texture: {fileID: 2800000, guid: 23258cdd4107957438acb082403e635b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _B_GroundTexture3:
+        m_Texture: {fileID: 2800000, guid: 32945884c5aef53448e94ec341f74f49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseGroundTexture:
+        m_Texture: {fileID: 2800000, guid: 149aac862fb2ec64e8a58d7d66677f50, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTexture:
+        m_Texture: {fileID: 2800000, guid: df6646d69f011624199bef752ba474dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GetTextureUsingTerrainData_e28cb52aaa32486f9159bad6afd346c2_BaseGroundTexture_2194589128:
+        m_Texture: {fileID: 2800000, guid: 2ecf82477f5722e45a3a4e7d4595120b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GetTextureUsingTerrainData_e28cb52aaa32486f9159bad6afd346c2_LowerGroundTexture_3774571094:
+        m_Texture: {fileID: 2800000, guid: 2ecf82477f5722e45a3a4e7d4595120b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GetTextureUsingTerrainData_e28cb52aaa32486f9159bad6afd346c2_UpperGroundTexture_2937553910:
+        m_Texture: {fileID: 2800000, guid: 2ecf82477f5722e45a3a4e7d4595120b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LowerGroundTexture:
+        m_Texture: {fileID: 2800000, guid: 41dbb396949432541a81e358f9071eb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LowerRockTexture:
+        m_Texture: {fileID: 2800000, guid: b3c906342d01c0f46b596ca50cb93482, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RockTexture:
+        m_Texture: {fileID: 2800000, guid: 910de3099ab29744c98a1b60a75203a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainSplatAplha0:
+        m_Texture: {fileID: 4496805660403899586, guid: 08c863a216bf727428d3fc892c3f3a70,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainSplatAplha1:
+        m_Texture: {fileID: -1643101587729110331, guid: 08c863a216bf727428d3fc892c3f3a70,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainTexture:
+        m_Texture: {fileID: 4496805660403899586, guid: 08c863a216bf727428d3fc892c3f3a70,
+          type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 7cd0f51b110e34849bf3e3f000850f76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2:
+        m_Texture: {fileID: 2800000, guid: 72cbcc15bbc6cfe41adfe82c28f7ec52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_Array:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture3:
+        m_Texture: {fileID: 2800000, guid: 41dbb396949432541a81e358f9071eb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonRamp:
+        m_Texture: {fileID: 2800000, guid: 322d8bf041c9ed641bb1b87b1eacb35e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpperGroundTexture:
+        m_Texture: {fileID: 2800000, guid: 0066526b0b2bf28489637ac23571f0b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UpperRockTexture:
+        m_Texture: {fileID: 2800000, guid: 23258cdd4107957438acb082403e635b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - ADDITIONAL_LIGHT_CALCULATE_SHADOWS: 1
+    - MAIN_LIGHT_CALCULATE_SHADOWS: 1
+    - REQUIRES_VERTEX_SHADOW_COORD_INTERPOLATOR: 0
+    - _LowerGround: 10.5
+    - _MAIN_LIGHT_SHADOWS: 1
+    - _MAIN_LIGHT_SHADOWS_CASCADE: 1
+    - _NoiseScale: 73.8
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _RockLevel: -2
+    - _SHADOWS_SOFT: 1
+    - _SOFT_SHADOWS: 1
+    - _SlopeNormalEdge1: 0.638
+    - _SlopeNormalEdge2: 0.956
+    - _Smoothnes: 0.5
+    - _TextureBlend: 0.8
+    - _TriplanarBlend: 10
+    - _TriplanarTile: 1
+    - _UpperGround: 25
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _TextureTiling: {r: 4, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
